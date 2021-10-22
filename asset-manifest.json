@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/looc-fetest-3/static/css/main.65211328.chunk.css",
+    "main.css": "/looc-fetest-3/static/css/main.cf736e24.chunk.css",
     "main.js": "/looc-fetest-3/static/js/main.6b4844c0.chunk.js",
     "main.js.map": "/looc-fetest-3/static/js/main.6b4844c0.chunk.js.map",
     "runtime-main.js": "/looc-fetest-3/static/js/runtime-main.09185ec3.js",
@@ -12,7 +12,7 @@
     "static/js/3.c24f59d8.chunk.js.map": "/looc-fetest-3/static/js/3.c24f59d8.chunk.js.map",
     "index.html": "/looc-fetest-3/index.html",
     "static/css/2.fd19c988.chunk.css.map": "/looc-fetest-3/static/css/2.fd19c988.chunk.css.map",
-    "static/css/main.65211328.chunk.css.map": "/looc-fetest-3/static/css/main.65211328.chunk.css.map",
+    "static/css/main.cf736e24.chunk.css.map": "/looc-fetest-3/static/css/main.cf736e24.chunk.css.map",
     "static/js/2.506d9469.chunk.js.LICENSE.txt": "/looc-fetest-3/static/js/2.506d9469.chunk.js.LICENSE.txt",
     "static/media/App.css": "/looc-fetest-3/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/PageSecond.scss": "/looc-fetest-3/static/media/longbanner-01.8d770faf.jpg",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.09185ec3.js",
     "static/css/2.fd19c988.chunk.css",
     "static/js/2.506d9469.chunk.js",
-    "static/css/main.65211328.chunk.css",
+    "static/css/main.cf736e24.chunk.css",
     "static/js/main.6b4844c0.chunk.js"
   ]
 }
