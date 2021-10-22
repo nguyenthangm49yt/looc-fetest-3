@@ -1,3 +1,27 @@
+@media screen and (max-width: 414px) {
+    .page3-content .page3-upper {
+    padding: 20px !important;
+    width: 100% !important;
+    height: 750px;
+    flex-direction: column !important;
+    }
+    .page3-content__photo img{
+        max-width: 320px !important;
+        max-height: 240px !important;
+    }
+
+    .page3-content__right{
+        width: 88% !important;
+    }
+    .page3--content__right--title{
+        font-size: 23px !important;
+    }
+    .page3--content__right--description{
+        font-size: 16px !important;
+        margin-bottom: 24px !important;
+    }
+}
+
 .page3-container {
     box-sizing: border-box;
     margin: 0;
