@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/looc-fetest-3/static/css/main.65211328.chunk.css",
-    "main.js": "/looc-fetest-3/static/js/main.896c6ca3.chunk.js",
-    "main.js.map": "/looc-fetest-3/static/js/main.896c6ca3.chunk.js.map",
+    "main.js": "/looc-fetest-3/static/js/main.6b4844c0.chunk.js",
+    "main.js.map": "/looc-fetest-3/static/js/main.6b4844c0.chunk.js.map",
     "runtime-main.js": "/looc-fetest-3/static/js/runtime-main.09185ec3.js",
     "runtime-main.js.map": "/looc-fetest-3/static/js/runtime-main.09185ec3.js.map",
     "static/css/2.fd19c988.chunk.css": "/looc-fetest-3/static/css/2.fd19c988.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.fd19c988.chunk.css",
     "static/js/2.506d9469.chunk.js",
     "static/css/main.65211328.chunk.css",
-    "static/js/main.896c6ca3.chunk.js"
+    "static/js/main.6b4844c0.chunk.js"
   ]
 }
