@@ -32,7 +32,7 @@ export default function PageFirst() {
                 <div className="fage1-header">
                     <div className="fage1-header__left">
                         <div className="logo">
-                            <img src={process.env.PUBLIC_URL + 'images/videonly-logo.png'} alt="logo"></img>
+                            <img src={process.env.PUBLIC_URL + '/images/videonly-logo.png'} alt="logo"></img>
                         </div>
                     </div>
                     <div className="fage1-header__right">
@@ -82,32 +82,32 @@ export default function PageFirst() {
                     <Carousel responsive={responsive}>
                         <Banner
 
-                            url={process.env.PUBLIC_URL + 'images/rolling-banner-02.jpg'}
+                            url={process.env.PUBLIC_URL + '/images/rolling-banner-02.jpg'}
                         >
                         </Banner>
                         <Banner
-                            url={process.env.PUBLIC_URL + 'images/rolling-banner-03.jpg'}
+                            url={process.env.PUBLIC_URL + '/images/rolling-banner-03.jpg'}
                         >
                         </Banner>
                         <Banner
-                            url={process.env.PUBLIC_URL + 'images/rolling-banner-04.jpg'}
+                            url={process.env.PUBLIC_URL + '/images/rolling-banner-04.jpg'}
                         >
                         </Banner>
                         <Banner
-                            url={process.env.PUBLIC_URL + 'images/rolling-banner-05.jpg'}
+                            url={process.env.PUBLIC_URL + '/images/rolling-banner-05.jpg'}
                         >
                         </Banner>
                         <Banner
 
-                            url={process.env.PUBLIC_URL + 'images/rolling-banner-02.jpg'}
+                            url={process.env.PUBLIC_URL + '/images/rolling-banner-02.jpg'}
                         >
                         </Banner>
                         <Banner
-                            url={process.env.PUBLIC_URL + 'images/rolling-banner-03.jpg'}
+                            url={process.env.PUBLIC_URL + '/images/rolling-banner-03.jpg'}
                         >
                         </Banner>
                         <Banner
-                            url={process.env.PUBLIC_URL + 'images/rolling-banner-04.jpg'}
+                            url={process.env.PUBLIC_URL + '/images/rolling-banner-04.jpg'}
                         >
                         </Banner>
 

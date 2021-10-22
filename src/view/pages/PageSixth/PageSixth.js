@@ -19,7 +19,7 @@ export default function PageSixth() {
                             title="이미지 찾기"
                             subtitle="내 회사에 맞는 이미지를
                             찾아 정합니다."
-                            photoUrl={process.env.PUBLIC_URL + 'images/big-icon-01.png'}
+                            photoUrl={process.env.PUBLIC_URL + '/images/big-icon-01.png'}
                         >
 
                         </Category>
@@ -27,7 +27,7 @@ export default function PageSixth() {
                             title="만들기"
                             subtitle="정해둔 이미지에 맞춰
                             템플릿을 만듭니다."
-                            photoUrl={process.env.PUBLIC_URL + 'images/big-icon-02.png'}
+                            photoUrl={process.env.PUBLIC_URL + '/images/big-icon-02.png'}
 
                         >
 
@@ -36,7 +36,7 @@ export default function PageSixth() {
                             title="정리하기"
                             subtitle="회사와 비디온리가 소통을
                             통해 퀄리티를 높입니다."
-                            photoUrl={process.env.PUBLIC_URL + 'images/big-icon-03.png'}
+                            photoUrl={process.env.PUBLIC_URL + '/images/big-icon-03.png'}
 
                         >
 
@@ -45,7 +45,7 @@ export default function PageSixth() {
                             title="제작 완료"
                             subtitle="세상에 단 하나 뿐인
                             영상 제작 완료!"
-                            photoUrl={process.env.PUBLIC_URL + 'images/big-icon-04.png'}
+                            photoUrl={process.env.PUBLIC_URL + '/images/big-icon-04.png'}
 
                         >
 
@@ -73,10 +73,10 @@ export default function PageSixth() {
                     </div>
                     <div className="page6-lower__right">
 
-                        <img src={process.env.PUBLIC_URL + 'images/footer-sns-icon-1.png'} alt=""></img>
-                        <img src={process.env.PUBLIC_URL + 'images/footer-sns-icon-2.png'} alt=""></img>
-                        <img src={process.env.PUBLIC_URL + 'images/footer-sns-icon-3.png'} alt=""></img>
-                        <img src={process.env.PUBLIC_URL + 'images/footer-sns-icon-4.png'} alt=""></img>
+                        <img src={process.env.PUBLIC_URL + '/images/footer-sns-icon-1.png'} alt=""></img>
+                        <img src={process.env.PUBLIC_URL + '/images/footer-sns-icon-2.png'} alt=""></img>
+                        <img src={process.env.PUBLIC_URL + '/images/footer-sns-icon-3.png'} alt=""></img>
+                        <img src={process.env.PUBLIC_URL + '/images/footer-sns-icon-4.png'} alt=""></img>
 
                        
 

@@ -25,7 +25,7 @@ export default function PageSecond() {
                         headerText="첫번째"
                         context="내 브랜드에 맞는
                          영상 만들기"
-                         url={process.env.PUBLIC_URL + 'images/thumbnail-01.jpg'}
+                         url={process.env.PUBLIC_URL + '/images/thumbnail-01.jpg'}
                        // url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ldBkrgynlHxi4uP8In4w-rzGS8HHfMioKg&usqp=CAU"
                     >
 
@@ -34,7 +34,7 @@ export default function PageSecond() {
                         headerText="첫번째"
                         context="내 브랜드에 맞는
                          영상 만들기"
-                         url={process.env.PUBLIC_URL + 'images/thumbnail-02.jpg'}
+                         url={process.env.PUBLIC_URL + '/images/thumbnail-02.jpg'}
 
                        // url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ldBkrgynlHxi4uP8In4w-rzGS8HHfMioKg&usqp=CAU"
                     >
@@ -44,7 +44,7 @@ export default function PageSecond() {
                         headerText="첫번째"
                         context="내 브랜드에 맞는
                          영상 만들기"
-                         url={process.env.PUBLIC_URL + 'images/thumbnail-03.jpg'}
+                         url={process.env.PUBLIC_URL + '/images/thumbnail-03.jpg'}
 
                         // url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ldBkrgynlHxi4uP8In4w-rzGS8HHfMioKg&usqp=CAU"
                     >

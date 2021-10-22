@@ -39,7 +39,7 @@ export default function PageFifth() {
                         나에게 맞는 템플릿, 망설이지 말고 지금 직접 체험해보세요!
                     </div>
                     <PrimaryBtn
-                        text="PrimaryBtn"
+                        text="시작하기"
                         classname="upper-btn"
                     >
 

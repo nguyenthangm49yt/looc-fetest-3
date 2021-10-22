@@ -8,7 +8,7 @@ export default function PageThird() {
             <div className='page3-content'>
                 <div className="page3-upper">
                     <div className="page3-content__photo">
-                        <img src={process.env.PUBLIC_URL + 'images/img-01.jpg'} alt=""></img>
+                        <img src={process.env.PUBLIC_URL + '/images/img-01.jpg'} alt=""></img>
 
                     </div>
 
