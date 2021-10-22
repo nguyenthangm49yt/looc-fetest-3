@@ -32,7 +32,7 @@ export default function PageFirst() {
                 <div className="fage1-header">
                     <div className="fage1-header__left">
                         <div className="logo">
-                            <p>videonly</p>
+                            <img src={process.env.PUBLIC_URL + 'images/videonly-logo.png'} alt="logo"></img>
                         </div>
                     </div>
                     <div className="fage1-header__right">
@@ -79,63 +79,38 @@ export default function PageFirst() {
                     </div>
                 </div>
                 <div className="fage1-content--lower__banner">
+                    <Carousel responsive={responsive}>
+                        <Banner
 
-                    {/* <Banner
-                            text1="한낮 무더위 점심네뉴는"
-                            text2="냉면이 최고!"
-                            subtitle="이마트 여름휴가 이벤트"
-                            url="https://media-cdn.laodong.vn/storage/newsportal/2020/8/18/829010/Jisoo.jpg?w=720&crop=auto&scale=both"
+                            url={process.env.PUBLIC_URL + 'images/rolling-banner-02.jpg'}
                         >
                         </Banner>
-                */}
-                    <Carousel responsive={responsive}>      
-                            <Banner
-                                text1="한낮 무더위 점심네뉴는"
-                                text2="냉면이 최고!"
-                                subtitle="이마트 여름휴가 이벤트"
-                                url="https://media-cdn.laodong.vn/storage/newsportal/2020/8/18/829010/Jisoo.jpg?w=720&crop=auto&scale=both"
-                            >
-                            </Banner>
-                        
-                            <Banner
-                                text1="한낮 무더위 점심네뉴는"
-                                text2="냉면이 최고!"
-                                subtitle="이마트 여름휴가 이벤트"
-                                url="https://media-cdn.laodong.vn/storage/newsportal/2020/8/18/829010/Jisoo.jpg?w=720&crop=auto&scale=both"
-                            >
-                            </Banner>
-                            
-                            <Banner
-                                text1="한낮 무더위 점심네뉴는"
-                                text2="냉면이 최고!"
-                                subtitle="이마트 여름휴가 이벤트"
-                                url="https://media-cdn.laodong.vn/storage/newsportal/2020/8/18/829010/Jisoo.jpg?w=720&crop=auto&scale=both"
-                            >
-                            </Banner>
-                            
-                            <Banner
-                                text1="한낮 무더위 점심네뉴는"
-                                text2="냉면이 최고!"
-                                subtitle="이마트 여름휴가 이벤트"
-                                url="https://media-cdn.laodong.vn/storage/newsportal/2020/8/18/829010/Jisoo.jpg?w=720&crop=auto&scale=both"
-                            >
-                            </Banner>
-                            
-                            <Banner
-                                text1="한낮 무더위 점심네뉴는"
-                                text2="냉면이 최고!"
-                                subtitle="이마트 여름휴가 이벤트"
-                                url="https://media-cdn.laodong.vn/storage/newsportal/2020/8/18/829010/Jisoo.jpg?w=720&crop=auto&scale=both"
-                            >
-                            </Banner>
-                            
-                            <Banner
-                                text1="한낮 무더위 점심네뉴는"
-                                text2="냉면이 최고!"
-                                subtitle="이마트 여름휴가 이벤트"
-                                url="https://media-cdn.laodong.vn/storage/newsportal/2020/8/18/829010/Jisoo.jpg?w=720&crop=auto&scale=both"
-                            >
-                            </Banner>
+                        <Banner
+                            url={process.env.PUBLIC_URL + 'images/rolling-banner-03.jpg'}
+                        >
+                        </Banner>
+                        <Banner
+                            url={process.env.PUBLIC_URL + 'images/rolling-banner-04.jpg'}
+                        >
+                        </Banner>
+                        <Banner
+                            url={process.env.PUBLIC_URL + 'images/rolling-banner-05.jpg'}
+                        >
+                        </Banner>
+                        <Banner
+
+                            url={process.env.PUBLIC_URL + 'images/rolling-banner-02.jpg'}
+                        >
+                        </Banner>
+                        <Banner
+                            url={process.env.PUBLIC_URL + 'images/rolling-banner-03.jpg'}
+                        >
+                        </Banner>
+                        <Banner
+                            url={process.env.PUBLIC_URL + 'images/rolling-banner-04.jpg'}
+                        >
+                        </Banner>
+
 
                     </Carousel>
                 </div>

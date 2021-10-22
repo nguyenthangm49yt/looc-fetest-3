@@ -29,7 +29,7 @@ export default function PageFourth() {
                 </div>
                 
                 <div className="page4-content__photo">
-                    <img src="https://cdn.dribbble.com/users/1052222/screenshots/6291444/getch_menu.png?compress=1&resize=400x300" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + 'images/img-02.jpg'} alt=""></img>
 
                 </div>
 

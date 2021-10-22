@@ -7,8 +7,8 @@ export default function PageThird() {
         <div className='page3-container'>
             <div className='page3-content'>
                 <div className="page3-upper">
-                    <div className="page2-content__photo">
-                        <img src="https://cdn.dribbble.com/users/1052222/screenshots/6291444/getch_menu.png?compress=1&resize=400x300" alt=""></img>
+                    <div className="page3-content__photo">
+                        <img src={process.env.PUBLIC_URL + 'images/img-01.jpg'} alt=""></img>
 
                     </div>
 

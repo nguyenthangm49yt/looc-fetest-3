@@ -13,6 +13,9 @@
     // margin: 280px 0 0;
     padding: 120px 335px;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .page6-upper__header {
     font-family: NotoSansCJKkr;
@@ -34,11 +37,12 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
     color: #222;
     margin-bottom: 40px;
-    max-width: 542px;
+    // max-width: 542px;
+    // padding: auto;
+    // right: ;
 }
 
 .page6-upper__category{
@@ -60,6 +64,9 @@
 
     }
     .page6-lower__right{
+        img{
+            margin-right: 10px;
+        }
         text-align: left;
     }
 }
