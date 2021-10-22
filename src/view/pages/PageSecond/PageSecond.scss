@@ -1,0 +1,108 @@
+.page2-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.page2-content--upper {
+    box-sizing: border-box;
+    width: 100%;
+    height: 878px;
+    // margin: 40px 0 0;
+    padding: 81px 335px 80px 334px;
+    background-color: #f9fafb;
+    .page2--upper__header {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fa5805;
+        margin-bottom: 20px;
+    }
+    .page2--upper__title {
+        font-family: NotoSansCJKkr;
+        font-size: 35px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: left;
+        color: #222;
+        margin-bottom: 26px;
+    }
+    .page2--upper__description {
+        font-family: NotoSansCJKkr;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #222;
+    }
+    .menu-guide {
+        margin-top: 39px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.page2-content--lower {
+    height: calc(100vh - 878px);
+    width: 100%;
+    background-image: url("../../../images/longbanner-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 0px 65px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .page2--lower__tex1 {
+        font-family: NotoSansCJKkr;
+        font-size: 35px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 14px;
+    }
+    .page2--lower__tex2 {
+        font-family: NotoSansCJKkr;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 19px;
+
+    }
+    .page2--lower__btn {
+        border-radius: 10px;
+        background-color: #fff;
+        width: 200px;
+        height: 52px;
+        font-family: NotoSansCJKkr;
+        font-size: 18px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 3.83;
+        text-align: center;
+        color: #222;
+        adding: 16px 68px 18px 69px;
+    }
+}

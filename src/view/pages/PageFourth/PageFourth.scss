@@ -1,0 +1,77 @@
+.page4-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    .page4-content {
+        box-sizing: border-box;
+        width: 1920px;
+        height: 750px;
+        // margin: 280px 0 0;
+        padding: 159px 343px 160px 495px;
+        background-color: #f9fafb;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .page4-content__photo {
+            img {
+                height: 430px;
+                width: 450px;
+            }
+        }
+
+        .page4-content__left {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            width: 441px;
+            .page4--content__left--header {
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 600;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fa5805;
+                margin-bottom: 20px;
+            }
+            .page4--content__left--title {
+                font-family: NotoSansCJKkr;
+                font-size: 35px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 0.86;
+                letter-spacing: normal;
+                text-align: left;
+                color: #222;
+                margin-bottom: 30px;
+            }
+            .page4--content__left--description {
+                font-family: NotoSansCJKkr;
+                font-size: 20px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: left;
+                color: #222;
+                margin-bottom: 78px;
+            }
+            .page4--content__left--btn {
+                width: 200px;
+                height: 52px;
+                font-size: 18px;
+                font-weight: 300;
+                text-align: center;
+                color: #fff;
+                border-radius: 10px;
+                background-color: #fa5805;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.fage1-container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.fage1-content--upper {
+    height: 700px;
+    background-image: url("../../../images/mainbanner.jpg");
+}
+.fage1-header {
+    box-sizing: border-box;
+    padding: 19px 335px 0 335px;
+    display: flex;
+    justify-content: space-between;
+    height: 59px;
+    .fage1-header__right {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.header-Btn {
+    width: 80px;
+    height: 32px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 9px;
+    padding: 12px 25px 11px;
+}
+
+.header-Btn--login {
+    border: solid 1px #fff;
+    background-color: unset;
+    color: #fff;
+}
+.header-Btn--join {
+    color: #fff;
+    background-color: #fa5805;
+}
+
+// fage1-below-header
+.fage1-below-header {
+    padding: 129px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .fage1-below-header__title {
+        font-size: 65px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.38;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 40px;
+        max-width: 746px;
+    }
+    .fage1-below-header__subtitle {
+        font-family: NotoSansCJKkr;
+        font-size: 20px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 52px;
+    }
+}
+.fage1-below-header__btn {
+    color: #fff;
+    background-color: #fa5805;
+    width: 200px;
+    height: 52px;
+
+    padding: 16px 68px 18px 69px;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+// fage1-content--lower
+
+.fage1-content--lower__title{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 187px 20px 335px;
+}

@@ -1,0 +1,38 @@
+.container-mguide {
+    margin-right: 21px;
+    width: 347px;
+    height: 467px;
+   
+}
+.content-mguide {
+    padding: 33px 28px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //   margin: 7px 0 0;
+    // background-image: url("https://insieutoc.vn/wp-content/uploads/2021/05/mau-thiet-ke-poster-tuyen-dung-ke-toan-510x542.jpg");
+
+}
+.content-mguide__header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    .content-mguide__header--left{
+        p{
+            margin: 0;
+            font-size: 24px;
+            line-height: 16px;
+        }
+
+    }
+    // .content-mguide__header--right{
+    //     i:before{
+    //         context: "/"
+    //     }
+    // }
+}
+.content-mguide__context{
+    text-align: left;
+}
+
