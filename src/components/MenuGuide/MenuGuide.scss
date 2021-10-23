@@ -10,6 +10,12 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+
+    
+    &:hover{
+        cursor: pointer;
+        opacity: 0.7;
+    }
     //   margin: 7px 0 0;
     // background-image: url("https://insieutoc.vn/wp-content/uploads/2021/05/mau-thiet-ke-poster-tuyen-dung-ke-toan-510x542.jpg");
 

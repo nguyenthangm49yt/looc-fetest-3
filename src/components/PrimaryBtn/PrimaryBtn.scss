@@ -8,5 +8,9 @@
     max-width: 200px;
     max-height: 52px;
     box-sizing: border-box;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
 
 }

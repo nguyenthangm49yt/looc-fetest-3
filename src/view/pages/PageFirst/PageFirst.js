@@ -75,7 +75,7 @@ export default function PageFirst() {
                         기업들의 템플릿 제작
                     </div>
                     <div className="fage1-content--lower__title-r">
-                        MORE
+                        MORE &gt; 
                     </div>
                 </div>
                 <div className="fage1-content--lower__banner">

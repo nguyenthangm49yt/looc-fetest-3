@@ -67,6 +67,9 @@
         .page6-lower__right{
             img {
                 width: 20px !important;
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -138,6 +141,9 @@
     .page6-lower__right {
         img {
             margin-right: 10px;
+            &:hover{
+                cursor: pointer;
+            }
         }
         text-align: left;
     }

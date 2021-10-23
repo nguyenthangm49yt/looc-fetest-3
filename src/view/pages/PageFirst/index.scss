@@ -110,11 +110,14 @@
     width: 200px;
     height: 52px;
 
-    padding: 16px 68px 18px 69px;
+    // padding: 16px 68px 18px 69px;
     border-radius: 10px;
 
     font-size: 18px;
     font-weight: 300;
+    &:hover{
+        opacity: 0.8;
+    }
 }
 
 // fage1-content--lower
@@ -123,4 +126,18 @@
     display: flex;
     justify-content: space-between;
     margin: 80px 187px 20px 335px;
+}
+
+.fage1-content--lower__title-r{
+    &:hover{
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.logo{
+    &:hover{
+        cursor: pointer;
+    }
 }
